@@ -4,7 +4,7 @@
     height: 100vh;
 }
 
-.code-input.form-control { color: coral !important;  font-size: 5em;
+.code-input.form-control { color: #a713df !important;  font-size: 5em;
     text-align: center; ;
     }
 
@@ -14,10 +14,38 @@
 
 .submit-button.btn {
     font-size: 2em;
+    background-color: #a713df;
     /*width: fit-content;*/
+
+
+}
+
+.submit-button.btn:hover {
+  background-color: #7e10aa;
+
+}
+
+.submit-button.btn:active {
+    background-color: #7e10aa !important;
+
 }
 
 .action-header:hover {
     cursor: pointer;
-    background-color: #d5d5d5;
+}
+
+.code-text {
+    color: white;
+    font-size: 24px;
+}
+
+.card-heading {
+    min-height: 3em;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.card-heading:hover {
+    cursor: pointer;
+    color: #7e10aa;
 }
