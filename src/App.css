@@ -1,4 +1,3 @@
-
 .App {
     background-color: #505050;
     height: 100vh;
@@ -126,18 +125,13 @@
 }
 
 
-.success-message-poem {
-    font-style: italic;
-    margin-top: 6px;
-    color: #000000;
-    font-size: min(4vw, 24px);
-}
-
 .content-main {
     position: relative;
     margin: 40px auto;
 
     .content-box {
+        font-size: min(4vw, 24px);
+        font-style: italic;
         height: auto;
         overflow: hidden;
         padding: 20px;

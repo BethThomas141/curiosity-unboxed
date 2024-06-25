@@ -1,4 +1,4 @@
-import { Container, Nav, Image, Navbar, Button } from "react-bootstrap";
+import { Button, Container, Image, Navbar } from "react-bootstrap";
 import logo from "./CuriosityUnboxedLogo.png";
 import { BoxArrowUpRight } from "react-bootstrap-icons";
 
