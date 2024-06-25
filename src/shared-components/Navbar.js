@@ -1,5 +1,6 @@
-import {Container, Nav, Image,Navbar} from "react-bootstrap";
+import {Container, Nav, Image, Navbar, Button} from "react-bootstrap";
 import logo from './CuriosityUnboxedLogo.png'
+import {BoxArrowUpRight} from "react-bootstrap-icons";
 
 function MainNavbar() {
   return (
@@ -12,6 +13,9 @@ function MainNavbar() {
 
           }}
         /> </Navbar.Brand>
+        <Navbar.Text className="justify-content-end">
+          <Button className={"outline-button d-flex justify-content-center align-items-center "} target={"_blank"} href="https://www.etsy.com/shop/CuriosityUnboxed" variant="outline-info"> View Etsy store <BoxArrowUpRight style={{marginLeft: '8px'}}/></Button>
+        </Navbar.Text>
       </Container>
     </Navbar>
   );

@@ -9,7 +9,7 @@ const HiddenStep = ({index, hint}) => {
   return (
       <Row className={"align-items-center"}>
         <Col xs lg="3" >
-        <Button className={"w-100 hint-button"} variant="outline-info" onClick={() => setShowHint(!showHint)}>{`${showHint ? "Hide" : "Reveal" } step ${index}`}</Button>
+        <Button className={"w-100 outline-button"} variant="outline-info" onClick={() => setShowHint(!showHint)}>{`${showHint ? "Hide" : "Reveal" } step ${index}`}</Button>
         </Col>
         <Col style={{borderLeftStyle: 'solid', borderLeftWidth: '1px', borderLeftColor: 'lightgray'}}>
           <div >

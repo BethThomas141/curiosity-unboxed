@@ -37,19 +37,19 @@
     background-color: #7e10aa !important;
 }
 
-.hint-button.btn {
+.outline-button.btn {
     border-color: #7e10aa;
     color: #7e10aa;
 }
 
-.hint-button.btn:hover {
+.outline-button.btn:hover {
     border-color: #7e10aa;
     color: #7e10aa;
     background-color: #f8eaff;
 
 }
 
-.hint-button.btn:active {
+.outline-button.btn:active {
     border-color: #7e10aa;
     color: #7e10aa;
     background-color: #f8eaff !important;
