@@ -11,11 +11,13 @@ export const birthdayMysteryHints = [
     steps: ["as23dfas33df", "h33int 3 woooo"]},
 ]
 
-export const successMessage = "Look at you, you did it!\n" +
+export const successPoem = "Look at you, you did it!\n" +
   "You solved the puzzle with determination and wit!\n" +
   "br\n" +
   "You cracked the code, the puzzle’s done,\n" +
   "Now it’s time for some birthday fun!\n" +
   "br\n" +
   "Here’s to you, a special cheer,\n" +
-  "Happy birthday, I hope the cake is near..!\n"
+  "Happy birthday, I hope the cake is near..! 👀\n"
+
+export const successMessage = "Well done on solving this fiendish puzzle! Enjoy the rest of your day celebrating both your birthday and your puzzle solving success!"
