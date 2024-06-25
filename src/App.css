@@ -71,7 +71,7 @@
 }
 
 .card-heading:hover {
-    cursor: pointer;
+    cursor: help;
     color: #7e10aa;
 }
 
@@ -160,4 +160,13 @@
             bottom: -2px;
         }
     }
+}
+
+.card-link.card:hover  {
+    background-color: #efefef;
+    cursor: pointer ;
+}
+
+.navbar-brand img:hover {
+    cursor: help !important;
 }
