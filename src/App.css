@@ -4,30 +4,55 @@
     height: 100vh;
 }
 
+.wrapping-container {
+    background-color: #505050;
+}
+
 .code-input.form-control { color: #a713df !important;  font-size: 5em;
     text-align: center; ;
     }
 
+.hints-wrapper {
+    /*max-width: 2000px;*/
+}
 .code-input-wrapper {
     max-width: 600px;
 }
 
 .submit-button.btn {
     font-size: 2em;
-    background-color: #a713df;
-    /*width: fit-content;*/
-
-
 }
 
-.submit-button.btn:hover {
+.purple-button.btn {
+    background-color: #a713df;
+    border: none;
+}
+
+.purple-button.btn:hover {
   background-color: #7e10aa;
 
 }
 
-.submit-button.btn:active {
+.purple-button.btn:active {
     background-color: #7e10aa !important;
+}
 
+.hint-button.btn {
+    border-color: #7e10aa;
+    color: #7e10aa;
+}
+
+.hint-button.btn:hover {
+    border-color: #7e10aa;
+    color: #7e10aa;
+    background-color: #f8eaff;
+
+}
+
+.hint-button.btn:active {
+    border-color: #7e10aa;
+    color: #7e10aa;
+    background-color: #f8eaff !important;
 }
 
 .action-header:hover {
@@ -48,4 +73,49 @@
 .card-heading:hover {
     cursor: pointer;
     color: #7e10aa;
+}
+
+.hide-icon {
+    transform: rotate(180deg);
+    transition: transform 600ms ease;
+}
+
+.show-icon {
+    transform: rotate(0deg);
+    transition: transform 600ms ease;
+}
+
+.congrats-text {
+    color: white;
+    max-width: 100%;
+    font-size: min(64px, 9vw);
+
+}
+
+.congrats-letter {
+    color: white;
+    animation: 2s anim 1;
+    display: inline-block;
+}
+
+
+@keyframes anim {
+    0% {
+        color: #c270c5;
+        transform: rotate(0deg);
+    }
+    20%{ color: #efa47f; }
+    40%{ color: #5ba15b;}
+    60%{ color: #b46fdc;}
+    100% {
+        color: #ffffff;
+        transform: rotate(360deg);
+    }
+}
+
+.success-message-container {
+    font-style: italic;
+    margin-top: 1em;
+    color: white;
+    font-size: min(4vw, 24px);
 }

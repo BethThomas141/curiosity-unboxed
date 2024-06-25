@@ -9,10 +9,12 @@ function App() {
   return (
     <div className="App">
       <MainNavbar />
-      <Container className="py-5 ">
+      <div className={"wrapping-container"}>
+      <Container>
         <BirthdayMystery />
 
       </Container>
+      </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import {Alert, Button, Col, Container, Form, Nav, Navbar, Row} from "react-bootstrap";
 import {useState} from "react";
 
-function CodeInputBar({ setShowSuccess }) {
+function CodeInputBar({ setShowSuccess, inputHeading, failMessage }) {
   const [inputtedCode, setInputtedCode] = useState('');
   const [incorrect, setIncorrect] = useState(false);
 
@@ -18,7 +18,6 @@ function CodeInputBar({ setShowSuccess }) {
 
     if (inputtedCode === '1234') {
       setShowSuccess(true)
-      console.log('yay')
     }
 
     else {
@@ -29,23 +28,22 @@ function CodeInputBar({ setShowSuccess }) {
 
 
   return (
-    <Container className={"d-flex justify-content-center "}>
-      <div className="code-input-wrapper">
-        <p className="text-center code-text pb-2"><em>When you think you've got the code,
-          enter your four digits below:</em></p>
-        {incorrect && <Alert variant={"danger"}>Oops, that's not quite right! Try again</Alert> }
+    <div className={"d-flex justify-content-center px-0"}>
+      <div className="code-input-wrapper px-0">
+        <p className="text-center code-text pb-2"><em>{inputHeading}</em></p>
+        {incorrect && <Alert className={"mx-0"} variant={"danger"}>{failMessage}</Alert> }
 
-        <Form className="mw-100" onSubmit={handleSubmit}>
-          <Row className="pb-4"><Form.Control type={"number"}
+        <Form onSubmit={handleSubmit}>
+          <Row className="pb-4 mx-0"><Form.Control type={"number"}
                                               className={"code-input"} onChange={handleChange}
                                               value={inputtedCode}/></Row>
-          <Row className={"d-flex justify-content-center "}> <Button variant="primary" type="submit"
-                                                                     className={"submit-button px-4"}>
+          <Row className={"d-flex justify-content-center mx-0"}> <Button variant="primary" type="submit"
+                                                                     className={"submit-button purple-button px-4"}>
             Submit
           </Button> </Row>
         </Form>
       </div>
-    </Container>
+    </div>
   );
 }
 
