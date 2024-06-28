@@ -70,7 +70,7 @@
 }
 
 .card-heading:hover {
-    cursor: help;
+    cursor: pointer;
     color: #7e10aa;
 }
 
@@ -162,5 +162,9 @@
 }
 
 .navbar-brand img:hover {
+    cursor: help !important;
+}
+
+.question-on-hover:hover {
     cursor: help !important;
 }

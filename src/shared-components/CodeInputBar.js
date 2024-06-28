@@ -16,7 +16,7 @@ function CodeInputBar({ setShowSuccess, inputHeading, failMessage }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (inputtedCode === "1234") {
+    if (inputtedCode === "6295") {
       setShowSuccess(true);
     } else {
       setIncorrect(true);

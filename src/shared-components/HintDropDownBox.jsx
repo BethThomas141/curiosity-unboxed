@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap";
 import HiddenStep from "./HiddenStep";
 
-const HintDropDownBox = ({ title, steps }) => {
+const HintDropDownBox = ({ title, steps, solution }) => {
   const [showCard, setShowCard] = useState(false);
 
   return (
@@ -33,9 +33,12 @@ const HintDropDownBox = ({ title, steps }) => {
         <div className="m-0 p-0">
           <CardBody>
             <Stack gap={3} className={"d-flex"}>
-              {steps.map((subHint, index) => (
-                <HiddenStep index={index + 1} hint={subHint} />
+              {steps.map((step, index) => (
+                <HiddenStep buttonText={`step ${index + 1}`} step={step} />
               ))}
+              {solution && (
+                <HiddenStep buttonText={"solution"} step={solution} />
+              )}
             </Stack>
           </CardBody>
         </div>

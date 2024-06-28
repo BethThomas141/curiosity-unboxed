@@ -8,7 +8,11 @@ function HintSection({ hints }) {
         <h1 className={"text-white"}> Hints</h1>
         <Stack gap={3} className={"pb-4"}>
           {hints.map((hint) => (
-            <HintDropDownBox title={hint.title} steps={hint.steps} />
+            <HintDropDownBox
+              title={hint.title}
+              steps={hint.steps}
+              solution={hint.solution}
+            />
           ))}
         </Stack>
       </div>
