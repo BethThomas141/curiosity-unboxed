@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7401de8.css",
-    "main.js": "/static/js/main.2df3c20e.js",
-    "static/js/453.55275e76.chunk.js": "/static/js/453.55275e76.chunk.js",
-    "static/media/CuriosityUnboxedLogo.png": "/static/media/CuriosityUnboxedLogo.292f67812d22d5b49c48.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.c7401de8.css.map": "/static/css/main.c7401de8.css.map",
-    "main.2df3c20e.js.map": "/static/js/main.2df3c20e.js.map",
-    "453.55275e76.chunk.js.map": "/static/js/453.55275e76.chunk.js.map"
+    "main.css": "/curiosity-unboxed/static/css/main.c7401de8.css",
+    "main.js": "/curiosity-unboxed/static/js/main.9c9a23e3.js",
+    "static/js/453.55275e76.chunk.js": "/curiosity-unboxed/static/js/453.55275e76.chunk.js",
+    "static/media/CuriosityUnboxedLogo.png": "/curiosity-unboxed/static/media/CuriosityUnboxedLogo.292f67812d22d5b49c48.png",
+    "index.html": "/curiosity-unboxed/index.html",
+    "main.c7401de8.css.map": "/curiosity-unboxed/static/css/main.c7401de8.css.map",
+    "main.9c9a23e3.js.map": "/curiosity-unboxed/static/js/main.9c9a23e3.js.map",
+    "453.55275e76.chunk.js.map": "/curiosity-unboxed/static/js/453.55275e76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7401de8.css",
-    "static/js/main.2df3c20e.js"
+    "static/js/main.9c9a23e3.js"
   ]
 }
