@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/curiosity-unboxed/static/css/main.c92cdbb6.css",
-    "main.js": "/curiosity-unboxed/static/js/main.d0759349.js",
+    "main.js": "/curiosity-unboxed/static/js/main.6a47abc9.js",
     "static/js/453.55275e76.chunk.js": "/curiosity-unboxed/static/js/453.55275e76.chunk.js",
     "static/media/CuriosityUnboxedLogo.png": "/curiosity-unboxed/static/media/CuriosityUnboxedLogo.292f67812d22d5b49c48.png",
     "index.html": "/curiosity-unboxed/index.html",
     "main.c92cdbb6.css.map": "/curiosity-unboxed/static/css/main.c92cdbb6.css.map",
-    "main.d0759349.js.map": "/curiosity-unboxed/static/js/main.d0759349.js.map",
+    "main.6a47abc9.js.map": "/curiosity-unboxed/static/js/main.6a47abc9.js.map",
     "453.55275e76.chunk.js.map": "/curiosity-unboxed/static/js/453.55275e76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c92cdbb6.css",
-    "static/js/main.d0759349.js"
+    "static/js/main.6a47abc9.js"
   ]
 }
