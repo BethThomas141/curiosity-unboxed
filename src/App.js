@@ -3,7 +3,7 @@ import Home from "./pages/home/Home";
 import MainNavbar from "./shared-components/Navbar";
 import { Container } from "react-bootstrap";
 import BirthdayMystery from "./pages/birthday-mystery/BirthdayMystery";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
         <div className={"wrapping-container"}>
           <Container>
             <Routes>
+              <Route path="/" element={<Home />} />
               <Route
                 path="/mystery-birthday-card/unlock"
                 element={<BirthdayMystery />}
