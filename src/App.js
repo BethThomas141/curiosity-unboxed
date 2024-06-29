@@ -3,11 +3,11 @@ import Home from "./pages/home/Home";
 import MainNavbar from "./shared-components/Navbar";
 import { Container } from "react-bootstrap";
 import BirthdayMystery from "./pages/birthday-mystery/BirthdayMystery";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename={"/curiosity-unboxed"}>
       <div className="App">
         <MainNavbar />
         <div className={"wrapping-container"}>
@@ -23,7 +23,7 @@ function App() {
           </Container>
         </div>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 

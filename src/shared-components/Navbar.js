@@ -9,13 +9,8 @@ function MainNavbar() {
   return (
     <Navbar bg="light" data-bs-theme="light">
       <Container>
-        <Navbar.Brand href="/">
-          <Image
-            className="d-flex"
-            src={logo}
-            style={{ height: "4em" }}
-            onClick={() => navigate("/")}
-          />{" "}
+        <Navbar.Brand onClick={() => navigate("/")}>
+          <Image className="d-flex" src={logo} style={{ height: "4em" }} />{" "}
         </Navbar.Brand>
         <Navbar.Text className="justify-content-end">
           <Button
