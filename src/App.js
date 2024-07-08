@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter basename={"/curiosity-unboxed"}>
+    <BrowserRouter>
       <div className="App">
         <MainNavbar />
         <div className={"wrapping-container"}>
