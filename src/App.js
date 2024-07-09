@@ -14,8 +14,9 @@ function App() {
           <Container>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/unlock" element={<Home />} />
               <Route
-                path="/mystery-birthday-card/unlock"
+                path="/unlock/birthday-mystery"
                 element={<BirthdayMystery />}
               />
               <Route path="*" element={<Home />} />

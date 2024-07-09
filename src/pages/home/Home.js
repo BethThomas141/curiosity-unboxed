@@ -18,7 +18,7 @@ function Home() {
           <Col xl={4} md={6} xs={12}>
             <Card
               className={"card-link"}
-              onClick={() => navigate("mystery-birthday-card/unlock")}
+              onClick={() => navigate("unlock/birthday-mystery")}
             >
               <Card.Img variant="top" src={logo} />
               <Card.Body>
