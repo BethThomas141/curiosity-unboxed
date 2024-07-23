@@ -1,5 +1,5 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
-import logo from "./../../shared-components/CuriosityUnboxedLogo.png";
+import birthdayMysteryPhoto from "./../../images/MysteryBdayCard.JPG";
 import { useNavigate } from "react-router-dom";
 
 function Home() {
@@ -20,12 +20,12 @@ function Home() {
               className={"card-link"}
               onClick={() => navigate("unlock/birthday-mystery")}
             >
-              <Card.Img variant="top" src={logo} />
+              <Card.Img variant="top" src={birthdayMysteryPhoto} />
               <Card.Body>
                 <Card.Title>Mystery Birthday Card</Card.Title>
                 <Card.Text>
                   Can you solve the birthday mystery? Click here to enter your
-                  code or view hints.?
+                  code or view hints.
                 </Card.Text>
               </Card.Body>
             </Card>

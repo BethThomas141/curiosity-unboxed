@@ -1,3 +1,10 @@
+import envelopeClue from "./../images/envelopeClue.JPG";
+import envelopeClueFinal from "./../images/envelopeClueFinal.png";
+import sixFold from "./../images/sixFold.jpg";
+import starNumber from "./../images/starNumber.png";
+import startAtTheCircle from "./../images/startAtTheCircle.JPG";
+import mazeNumberTrace from "./../images/mazeNumberTrace.JPG";
+
 export const homePageText =
   "Received one of the cards below? Click on the one you've received to test out your code or view hints!";
 
@@ -16,12 +23,12 @@ export const birthdayMysteryHints = [
         image: null,
       },
       {
-        text: "It spells out ENVELOPE! Have a look at the envelope that the card came in to see if you spot anything suspicious...",
+        text: "It spells out ENVELOPE! Have a good look at the envelope that the card came in to see if you spot anything unusual...",
         image: null,
       },
       {
         text: "If look inside or rip apart the envelope you should find lots of _ symbols and circles around some of them. Can you spot what the _ symbols match up with on the card?",
-        image: null,
+        image: envelopeClue,
       },
       {
         text: "There are just the right number of _ symbols to match up with the birthday list on the back of the card!",
@@ -29,8 +36,8 @@ export const birthdayMysteryHints = [
       },
     ],
     solution: {
-      text: "If you match up the _ with the list on the back of the card certain letters will be circled. You should fine the n, i, n and e circled, spelling out the number NINE.",
-      image: null,
+      text: "If you match up the _ with the list on the back of the card, certain letters will be circled. You should fine the n, i, n and e circled, spelling out the number NINE.",
+      image: envelopeClueFinal,
     },
   },
   {
@@ -48,7 +55,7 @@ export const birthdayMysteryHints = [
     ],
     solution: {
       text: "If you fold the flaps in a certain way it gives the number SIX!",
-      image: null,
+      image: sixFold,
     },
   },
   {
@@ -67,13 +74,13 @@ export const birthdayMysteryHints = [
         image: null,
       },
       {
-        text: "Connect the stars on the outside of the card with a pen/pencil in the same order as the flags that appear inside the card, in the bunting.",
+        text: "Connect the stars on the outside of the card with a pen/pencil in the same order as the flags that appear inside the card in the bunting.",
         image: null,
       },
     ],
     solution: {
-      text: "Joining up the stars in the correct order should reveal a number 2 drawn out over the card!",
-      image: null,
+      text: "Joining up the stars in the same order as the bunting flags inside the card should reveal a number 2 drawn out over the card!",
+      image: starNumber,
     },
   },
   {
@@ -101,12 +108,12 @@ export const birthdayMysteryHints = [
         image: null,
       },
       {
-        text: "if you hold the card flat up to your eyes and look carefully you should be able to read a message... and then rotate it to see if you get a second message...",
+        text: "If you hold the card flat up to your eyes and look carefully you should be able to read a message... and then rotate it to see if you get a second message...",
         image: null,
       },
       {
         text: "Holding the card angled in front of you, you can read 'START AT THE CIRCLE'. Holding it the other way you read 'END AT THE TRIANGLE'",
-        image: null,
+        image: startAtTheCircle,
       },
       {
         text: "Can you find a circle or triangle anywhere else on the card..?",
@@ -119,7 +126,7 @@ export const birthdayMysteryHints = [
     ],
     solution: {
       text: "By doing the above you trace the number 5.",
-      image: null,
+      image: mazeNumberTrace,
     },
   },
   {
