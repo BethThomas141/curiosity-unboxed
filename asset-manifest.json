@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c92cdbb6.css",
-    "main.js": "/static/js/main.f71ca7bb.js",
+    "main.css": "/static/css/main.e47bb080.css",
+    "main.js": "/static/js/main.3615ba61.js",
     "static/js/453.55275e76.chunk.js": "/static/js/453.55275e76.chunk.js",
+    "static/media/sixFold.jpg": "/static/media/sixFold.34245472580159a05d60.jpg",
+    "static/media/envelopeClue.JPG": "/static/media/envelopeClue.44fffc147ddf92d947d2.JPG",
+    "static/media/mazeNumberTrace.JPG": "/static/media/mazeNumberTrace.ed7185c93ff3caa6b3bf.JPG",
+    "static/media/MysteryBdayCard.JPG": "/static/media/MysteryBdayCard.8bcf5b72fd710c85af30.JPG",
+    "static/media/startAtTheCircle.JPG": "/static/media/startAtTheCircle.34eb340463f71ce36de9.JPG",
+    "static/media/starNumber.png": "/static/media/starNumber.5e0792117029fdf54545.png",
+    "static/media/envelopeClueFinal.png": "/static/media/envelopeClueFinal.397e5791cd7dfd568821.png",
     "static/media/CuriosityUnboxedLogo.png": "/static/media/CuriosityUnboxedLogo.292f67812d22d5b49c48.png",
     "index.html": "/index.html",
-    "main.c92cdbb6.css.map": "/static/css/main.c92cdbb6.css.map",
-    "main.f71ca7bb.js.map": "/static/js/main.f71ca7bb.js.map",
+    "main.e47bb080.css.map": "/static/css/main.e47bb080.css.map",
+    "main.3615ba61.js.map": "/static/js/main.3615ba61.js.map",
     "453.55275e76.chunk.js.map": "/static/js/453.55275e76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c92cdbb6.css",
-    "static/js/main.f71ca7bb.js"
+    "static/css/main.e47bb080.css",
+    "static/js/main.3615ba61.js"
   ]
 }
